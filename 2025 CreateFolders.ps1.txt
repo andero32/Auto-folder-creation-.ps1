@@ -1,4 +1,4 @@
-$ROOT = '\\chdata\treshared$\01-DIGITAL WORK'
+$ROOT = //INSERT FILE LOCATION
 $YEAR = 2025
 $START = '1/1'
 $END = '12/31'
@@ -10,7 +10,7 @@ $SUBFOLDERS = @(
     'CB15s',
     'Next Day ACH',
     'Prior Day ACH',
-    'SWEEP'
+    'INVESTMENT SWEEP'
 )
 
 function Get-FolderPath ([datetime]$date) {
